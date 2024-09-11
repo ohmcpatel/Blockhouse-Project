@@ -1,0 +1,6 @@
+# Node modules
+frontend/blockhousefrontend/node_modules/
+frontend/blockhousefrontend/.next/
+
+# Logs
+*.log
