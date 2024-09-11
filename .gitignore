@@ -1,6 +1,39 @@
-# Node modules
-frontend/blockhousefrontend/node_modules/
-frontend/blockhousefrontend/.next/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Logs
-*.log
+# Ignore frontend's Git folder
+/frontend/blockhousefrontend/.git/
+
+# Dependencies
+/frontend/blockhousefrontend/node_modules
+/frontend/blockhousefrontend/.pnp
+/frontend/blockhousefrontendpnp.js
+/frontend/blockhousefrontend.yarn/install-state.gz
+
+# Testing
+/frontend/blockhousefrontend/coverage
+
+# Next.js
+/frontend/blockhousefrontend/.next/
+/frontend/blockhousefrontend/out/
+
+# Production
+/frontend/blockhousefrontend/build
+
+# Miscellaneous
+/frontend/blockhousefrontend.DS_Store
+/frontend/blockhousefrontend*.pem
+
+# Debug
+/frontend/blockhousefrontendnpm-debug.log*
+/frontend/blockhousefrontendyarn-debug.log*
+/frontend/blockhousefrontendyarn-error.log*
+
+# Local environment files
+/frontend/blockhousefrontend.env*.local
+
+# Vercel
+/frontend/blockhousefrontend.vercel
+
+# TypeScript
+/frontend/blockhousefrontend*.tsbuildinfo
+/frontend/blockhousefrontendnext-env.d.ts
